@@ -2,6 +2,19 @@
 
 First Ember Project. 
 
+## Installation
+
+* `git clone <repository-url>` this repository
+* `cd happy-go-lucky`
+* `npm install`
+
+## Dependencies installed
+
+* ember install ember-cli-sass
+* ember install ember-auto-import
+* ember install ember-auto-import
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -11,17 +24,6 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
-## Dependencies installed
-
-* ember install ember-cli-sass
-* ember install ember-auto-import
-* ember install ember-auto-import
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd happy-go-lucky`
-* `npm install`
 
 ## Running / Development
 
