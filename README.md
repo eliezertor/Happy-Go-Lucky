@@ -8,7 +8,7 @@ First Ember Project.
 * `cd happy-go-lucky`
 * `npm install`
 
-## Dependencies installed
+## Dependencies
 
 * ember install ember-cli-sass
 * ember install ember-auto-import
