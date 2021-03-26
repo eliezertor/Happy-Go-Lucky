@@ -12,7 +12,7 @@ First Ember Project.
 
 * ember install ember-cli-sass
 * ember install ember-auto-import
-* ember install ember-auto-import
+* npm i @giphy/js-fetch-api
 
 
 ## Prerequisites
