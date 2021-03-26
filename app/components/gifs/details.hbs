@@ -1,0 +1,27 @@
+<main class="id">
+  <img class="id__banner" src={{@gif.user.banner_image}} alt={{@gif.user.banner_image}}>
+
+  <div class="id__user-image-details-container">
+
+
+    <div class="id__user">
+
+      <img class="id__avatar" src={{@gif.user.avatar_url}} alt={{@gif.user.avatar_url}}>
+      <div class="id__user-info-container">
+        <h3 class="id__name">{{@gif.user.display_name}} </h3>
+        {{#if @gif.user.username}}
+        <a class="id__user-name-url" href={{@gif.url}} target="_blank"> @{{@gif.user.username}} </a>
+        {{/if}}
+      </div>
+
+    </div>
+
+    <div class="id__title-image">
+
+      <h5 class="id__title">{{@gif.title}}</h5>
+      <img class="id__image" src={{@gif.images.downsized.url}} alt={{gif.title}}>
+    </div>
+
+  </div>
+
+</main>

@@ -1,0 +1,7 @@
+<article class="gifs">
+
+  <LinkTo class="gifs__link" @route='gif' @model={{@gif}}>
+    <img class="gifs__image" src={{@gif.images.downsized.url}} alt={{gif.title}}>
+  </LinkTo>
+
+</article>

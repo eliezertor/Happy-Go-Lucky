@@ -1,0 +1,13 @@
+<div class="index">
+
+  <ul class="index__list">
+
+    {{#each @model as |gifs|}}
+    <li class="index__list-item">
+      <Gif @gif={{gifs}} />
+    </li>
+    {{/each}}
+
+  </ul>
+
+</div>

@@ -1,0 +1,52 @@
+@import './Partials/mixins';
+@import './Partials/variables';
+
+// * Nav-bar styling
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    text-decoration: none;
+    color: white;
+    @include tablet {
+      font-size: 1.4em;
+    }
+    @include desktop {
+      font-size: 1.5em;
+    }
+  }
+}
+
+// * Index page over all styling
+
+.index {
+  &__list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tablet {
+      flex-wrap: wrap;
+      flex-direction: unset;
+      margin: 0 auto;
+      width: 90%;
+      display: -ms-inline-grid;
+      grid-gap: 5px;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      grid-auto-rows: 200px;
+    }
+    @include desktop {
+      width: 80%;
+    }
+  }
+  &__list-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

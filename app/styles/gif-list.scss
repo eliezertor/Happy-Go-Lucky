@@ -1,0 +1,28 @@
+@import './Partials/mixins';
+@import './Partials/variables';
+
+// * Index page individual gifs image styling
+
+.gifs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__link {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image {
+    width: 70%;
+    margin: 5px 0;
+    @include tablet {
+      width: 100%;
+    }
+    @include desktop {
+      &:hover {
+        transform: translate3d(-0.5ch, -0.1in, -0.5em);
+      }
+    }
+  }
+}
